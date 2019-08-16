@@ -1,0 +1,33 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "jest": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": 0,
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "of|type|returns" }],
+    "@typescript-eslint/explicit-member-accessibility": 0,
+    "no-useless-constructor": 0,
+    "@typescript-eslint/no-parameter-properties": 0,
+    "no-empty-function": 0,
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["**/__fixtures__/*.ts", "**/__tests__/*.ts", "**/*.spec.ts"]}]
+  },
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "airbnb-base",
+    "plugin:@typescript-eslint/recommended",
+    "prettier",
+    "prettier/@typescript-eslint"
+  ],
+  "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["src"],
+                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+            }
+        }
+    }
+}

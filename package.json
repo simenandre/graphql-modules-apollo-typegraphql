@@ -1,0 +1,66 @@
+{
+  "name": "graphql-modules-apollo-typegraphql",
+  "version": "1.0.0",
+  "description": "A implementation of GraphQL Modules / Apollo Server / TypeGraphQL",
+  "author": "cobraz",
+  "main": "build/app/index.js",
+  "scripts": {
+    "start": "node build/app/index.js",
+    "test": "jest --coverage src",
+    "build": "tsc",
+    "lint": "eslint --ignore-path .gitignore --ext ts ./src",
+    "watch": "ts-node-dev --project ./tsconfig.json --respawn src/app/index.ts"
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 80,
+        "functions": 80,
+        "lines": 80,
+        "statements": -10
+      }
+    },
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/__fixtures__/",
+      "<rootDir>/build"
+    ]
+  },
+  "devDependencies": {
+    "@types/faker": "^4.1.5",
+    "@types/graphql": "^14.2.3",
+    "@types/jest": "^24.0.17",
+    "@types/node": "~8.9.4",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "faker": "^4.1.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@graphql-modules/core": "^0.7.9",
+    "@graphql-modules/di": "^0.7.9",
+    "apollo-server": "^2.8.1",
+    "graphql": "^14.1.1",
+    "graphql-tag": "^2.10.1",
+    "obf-property-client": "^1.2.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^0.17.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cobraz/graphql-modules-apollo-typegraphql.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cobraz/graphql-modules-apollo-typegraphql/issues"
+  },
+  "homepage": "https://github.com/cobraz/graphql-modules-apollo-typegraphql#readme"
+}
