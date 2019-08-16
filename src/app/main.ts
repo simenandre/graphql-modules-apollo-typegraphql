@@ -6,11 +6,22 @@ export default class Main {
   private server: ApolloServer;
 
   public async boot(): Promise<void> {
-    const { schema, context } = AppModule;
+    /**
+     * Working example
+     */
+    // const { schema, context } = AppModule;
+    // this.server = new ApolloServer({
+    //   schema,
+    //   context,
+    //   introspection: true,
+    //   cors: false,
+    // });
 
+    /**
+     * Not working 👇
+     */
     this.server = new ApolloServer({
-      schema,
-      context,
+      modules: [ AppModule ],
       introspection: true,
       cors: false,
     });
