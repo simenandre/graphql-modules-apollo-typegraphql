@@ -50,7 +50,7 @@
     "@graphql-modules/di": "^0.7.15",
     "apollo-server": "^2.8.1",
     "graphql": "^14.1.1",
-    "graphql-tag": "^2.10.1",
+    "graphql-tag": "^2.10.3",
     "obf-property-client": "^1.2.0",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^0.17.4"
