@@ -53,7 +53,7 @@
     "graphql-tag": "^2.10.3",
     "obf-property-client": "^1.2.0",
     "reflect-metadata": "^0.1.13",
-    "type-graphql": "^0.17.4"
+    "type-graphql": "^0.17.6"
   },
   "repository": {
     "type": "git",
