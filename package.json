@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@graphql-modules/core": "^0.7.17",
-    "@graphql-modules/di": "^0.7.15",
+    "@graphql-modules/di": "^0.7.17",
     "apollo-server": "^2.18.2",
     "graphql": "^14.7.0",
     "graphql-tag": "^2.10.3",
