@@ -28,7 +28,7 @@
     ]
   },
   "devDependencies": {
-    "@types/faker": "^5.5.5",
+    "@types/faker": "^5.5.7",
     "@types/graphql": "^14.5.0",
     "@types/jest": "^26.0.22",
     "@types/node": "~15.0.2",
