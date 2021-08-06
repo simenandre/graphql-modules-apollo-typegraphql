@@ -2,6 +2,8 @@
   "name": "graphql-modules-apollo-typegraphql",
   "version": "1.0.0",
   "description": "A implementation of GraphQL Modules / Apollo Server / TypeGraphQL",
+  "repository": "github:cobraz/graphql-modules-apollo-typegraphql",
+  "license": "ISC",
   "author": "cobraz",
   "main": "build/app/index.js",
   "scripts": {
@@ -27,24 +29,6 @@
       "<rootDir>/build"
     ]
   },
-  "devDependencies": {
-    "@types/faker": "^5.5.5",
-    "@types/graphql": "^14.5.0",
-    "@types/jest": "^26.0.22",
-    "@types/node": "~15.0.2",
-    "@typescript-eslint/eslint-plugin": "^1.11.0",
-    "@typescript-eslint/parser": "^1.11.0",
-    "eslint": "^7.26.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-import": "^2.22.1",
-    "faker": "^5.5.3",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.3.0",
-    "ts-node-dev": "^1.1.6",
-    "typescript": "^3.9.9",
-    "braces": ">=2.3.1"
-  },
   "dependencies": {
     "@graphql-modules/core": "^0.7.17",
     "@graphql-modules/di": "^0.7.17",
@@ -55,13 +39,22 @@
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^0.17.6"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cobraz/graphql-modules-apollo-typegraphql.git"
-  },
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/cobraz/graphql-modules-apollo-typegraphql/issues"
-  },
-  "homepage": "https://github.com/cobraz/graphql-modules-apollo-typegraphql#readme"
+  "devDependencies": {
+    "@types/faker": "^5.5.5",
+    "@types/graphql": "^14.5.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "~15.0.2",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "braces": ">=2.3.1",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "faker": "^5.5.3",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.3.0",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^3.9.9"
+  }
 }
