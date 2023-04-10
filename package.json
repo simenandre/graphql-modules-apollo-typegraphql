@@ -2,7 +2,7 @@
   "name": "graphql-modules-apollo-typegraphql",
   "version": "1.0.0",
   "description": "A implementation of GraphQL Modules / Apollo Server / TypeGraphQL",
-  "repository": "github:cobraz/graphql-modules-apollo-typegraphql",
+  "repository": "github:simenandre/graphql-modules-apollo-typegraphql",
   "license": "ISC",
   "author": "cobraz",
   "main": "build/app/index.js",
